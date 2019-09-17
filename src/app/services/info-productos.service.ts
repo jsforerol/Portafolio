@@ -65,7 +65,7 @@ export class InfoProductosService {
       if ( prod.categoria.indexOf( termino ) >= 0 || tituloLower.indexOf( termino ) >= 0 ) {
               this.productoFiltrados.push( prod );
         }
-     })
+     });
 
   // console.log( this.productos );
 
